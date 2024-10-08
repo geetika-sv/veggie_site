@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Anton&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Playwrite DE Grund";
+}
+
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    background-image: url("/img/falefel background.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 8rem ;
+    z-index: 1;
+
+}
+
+div.background-ovrelay {
+    background: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+
+
+}
+
+nav{
+    background: #007000;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+nav a{
+    color: white;
+    font-size: 1.4rem; 
+}
